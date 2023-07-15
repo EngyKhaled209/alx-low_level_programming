@@ -1,0 +1,16 @@
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0 (success)
+ */
+int main(void)
+{
+	char chara = 'a';
+
+	while (chara < z)
+	{
+		putchar (chara);
+		chara++;
+	}
+	return (0);
+}
