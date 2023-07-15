@@ -5,15 +5,17 @@
  */
 int main(void)
 {
-	char i = 'a';
+	char i;
 
+	char me;
+
+	i = 'a';
+	me = 'A';
 	while (i <= 'z')
 	{
 		putchar(i);
 		i++;
 	}
-	char me = 'A';
-
 	while (me <= 'Z')
 	{
 		putchar(me);
