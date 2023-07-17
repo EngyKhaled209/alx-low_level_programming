@@ -11,12 +11,12 @@ int main(void)
 	while (i <= 9)
 	{
 		putchar(i + 48);
-		putchar(32);
 		if (i < 9)
 		{
 			putchar(44);
 		}
 		 i++;
+		 putchar(32);
 	}
 	return (0);
 }
