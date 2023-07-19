@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_last_digit - Entry point
  * @c: the intger number
@@ -13,6 +13,6 @@ int print_last_digit(int c)
 	{
 		last_digit = -1 * last_digit;
 	}
-	return ('0' + last_digit);
+	_putchar('0' + last_digit);
 	return (last_digit);
 }
