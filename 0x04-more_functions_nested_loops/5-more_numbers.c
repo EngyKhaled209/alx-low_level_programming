@@ -8,20 +8,19 @@ void more_numbers(void)
 {
 	int num;
 
-	int j;
+	int j, count;
 
 	for (j = 0; j < 10; j++)
 	{
-		for (num = 0; num <= 9; num++)
+		for (count = 0; count <= 14; count++)
 		{
-			_putchar(num + '0');
-		}
-		if (num >= 9 && num <= 14)
-		{
-			for (num = 9; num <= 14; num++)
+			num = count;
+			if (count > 9)
 			{
-				printf("%d", num);
+				_putchar(1 + 48);
+				num = count % 10;
 			}
+			_putchar(num + 48);
 		}
 		_putchar('\n');
 	}
