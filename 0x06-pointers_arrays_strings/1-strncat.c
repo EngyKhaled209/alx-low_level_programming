@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _strncat - Entry point
  * @src: character
