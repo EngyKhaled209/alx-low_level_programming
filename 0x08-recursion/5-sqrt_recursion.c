@@ -30,5 +30,5 @@ int actual(int n, int val)
 	{
 		return (-1);
 	}
-	return (actual(n, val + 1))
+	return (actual(n, val + 1));
 }
