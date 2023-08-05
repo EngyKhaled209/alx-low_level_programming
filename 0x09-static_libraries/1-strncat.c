@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strcat - Entry point
- * @dest: fiest
+ * _strncat - Entry point
+ * @dest: first
  * @src: second
+ * @n: an int
  * Return: Always 0 (success)
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 
@@ -18,11 +19,12 @@ char *_strcat(char *dest, char *src)
 		i++;
 	}
 	j = 0;
-	while (src[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
-	dest[i] != '\0';
+	dest[i] = '\0';
 	return (dest);
 }
