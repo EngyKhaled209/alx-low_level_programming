@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int mul;
 
-	if (argc == 3)
+	if (argc == 2)
 	{
 		mul = atoi(argv[1]) * atoi(argv[2]);
 		ptintf("%d\n", mul);
