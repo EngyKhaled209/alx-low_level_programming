@@ -1,10 +1,10 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- *
- *
- *
- *
+ *struct dog - main entery
+ *@name: first input
+ *@age: second input
+ *@owner: third input
  *
  *
  */
